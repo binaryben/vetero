@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import "the-new-css-reset/css/reset.css"
-import App from './views/App/App'
+import App from 'views/App/App'
 import reportWebVitals from './reportWebVitals'
 
 const root = ReactDOM.createRoot(
