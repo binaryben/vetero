@@ -26,7 +26,7 @@ export type WeatherConfig = {
 }
 
 export type WeatherCollection = {
-  WeatherConfig,
-  WeatherData,
-  WeatherTemp,
+  meta: WeatherMeta,
+  data: WeatherData,
+  temp: WeatherTemp,
 }
