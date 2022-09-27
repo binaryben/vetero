@@ -24,3 +24,9 @@ export type WeatherConfig = {
   units: 'metric'|'imperial'
   cacheTimeout: number
 }
+
+export type WeatherCollection = {
+  WeatherConfig,
+  WeatherData,
+  WeatherTemp,
+}
